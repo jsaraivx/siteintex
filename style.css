@@ -20,3 +20,18 @@
     top: -1.8em;
     position: absolute;
 }
+.listasHorizontal{
+    display: inline-block; 
+}
+ul{
+    font-size: 18pt;
+}
+#sectionHeader{
+    display: block;
+    background-color: red;
+    width: 600px;
+    height: 80px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}

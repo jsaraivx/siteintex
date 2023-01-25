@@ -1,0 +1,67 @@
+#contactSmallHeader{
+    background-color: rgb(19, 19, 19);
+    width: 100%;
+    height: 25px;
+    right: 0px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+}
+#bigHeader{
+    background-color: bisque;
+    
+    width: 100%;
+    height: 100px;
+    right: 0px;
+    left: 0px;
+    margin-top: 17px;
+    position: absolute;
+    
+    top: auto;
+    
+}
+#logoHeader{
+    height: 100px;
+    background-color: rgb(231, 231, 231);
+}
+#imgLogoHeader{
+    top: -35px;
+    position: absolute;
+}
+#textSmallHeader{
+    color: white;
+    margin-top: 3px;
+}
+.liSmallHeader{
+    display: inline-block;
+    margin-right: 55px;
+    margin-left: -10px;
+
+}
+i{
+    position: absolute;
+
+}
+
+.iconTopSpacement{
+    margin-top: 1px;
+    filter: invert();
+    width: 14px;
+    margin-left: -20px;
+}
+#imgSmallChat{
+    
+    margin-left: -20px;
+   
+}
+#imgSmallPhone{
+    
+    margin-left: -20px;
+   
+}
+#imgSmallWhatsapp{
+    
+    margin-left: -20px;
+   
+}

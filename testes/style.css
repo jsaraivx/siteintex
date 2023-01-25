@@ -65,3 +65,26 @@ i{
     margin-left: -20px;
    
 }
+/*Tirando sublinhado*/
+.linksWhiteText{
+    text-decoration: none;
+}
+/* link que ainda não foi visitado */
+.linksWhiteText:link {
+    color: rgb(255, 255, 255);
+ }
+
+/* link que foi visitado */
+.linksWhiteText:visited {
+     color: rgb(255, 255, 255);
+ }
+
+/* mouse over */
+.linksWhiteText:hover {
+     color: #a8a8a8;
+ }
+
+/* link selecionado */
+.linksWhiteText:active {
+     color: rgb(58, 58, 58);
+ }

@@ -79,7 +79,7 @@ i{
 .linksWhiteText:visited {
      color: rgb(255, 255, 255);
  }
-/* mouse over */
+/* mouse em cima */
 .linksWhiteText:hover {
      color: #a8a8a8;
  }
@@ -89,7 +89,7 @@ i{
      color: rgb(58, 58, 58);
  }
 
-/*Section main of the site*/
+/*Sessão principal do site*/
 #mainSection{
     background-color: rgb(209, 209, 209);
     width: 100%;

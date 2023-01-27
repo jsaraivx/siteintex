@@ -34,12 +34,14 @@
 #textSmallHeader{
     color: white;
     margin-top: 3px;
-    font-size: 0.8em;
+    font-size: 0.6em;
+    font-family: 'Unbounded', cursive;
 }
 .liSmallHeader{
-    display: inline-block;;
+    display: inline;
     margin-right: 55px;
     margin-left: -10px;
+    image.png
 
 }
 i{
@@ -97,4 +99,16 @@ i{
     position: fixed;
     margin-top: 75px;
     left: 0;
+}
+#sobrenosSessao{
+    position: absolute;
+    margin-top: 80px;
+    width: 100%;
+}
+.textoDestaque{
+    font-size: 28pt;
+    text-align: center;
+    display: block;
+    font-family: 'Unbounded', cursive;
+
 }

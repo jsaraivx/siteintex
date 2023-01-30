@@ -1,9 +1,13 @@
 @media screen and (max-width: 760px){
+    #title{
+        text-align: center;
+    }
     header{
         flex-direction: column; 
     }
     main{
         flex-direction: column;
+        margin-top: 10px;
     }
     h2{
         font-size: 38px;

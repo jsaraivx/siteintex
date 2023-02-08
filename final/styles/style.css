@@ -94,20 +94,3 @@ form [type='submit']{
     color: rgb(0, 0, 0);
     border-color: rgb(0, 0, 0);
 }
-.primary-content{
-    margin-bottom: 30em;
-}
-.second-content h1{
-    line-height: 40px;
-    max-width: 500px;
-    font-family: poppinsbold;
-}
-.second-content p{
-    line-height: 20px;
-    max-width: 500px;
-    font-family: poppinslight;
-
-}
-.second-content{
-    flex-direction:column;
-}

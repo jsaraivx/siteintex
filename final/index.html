@@ -1,74 +1,48 @@
-<html lang="pt-br">
+<!DOCTYPE html>
+<html lang="pr-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InteXCAPS</title>
-    <link rel="stylesheet" href="style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap" rel="stylesheet">
-
+    <title>Página Inicial</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <link rel="stylesheet" href="styles/media.css">
 </head>
 <body>
-    
-    <header name='smallHeader' >
-    <div id="contactSmallHeader">
-        
-        
-        <ul id="textSmallHeader"> 
-            <li class="liSmallHeader"><a class="linksWhiteText" href=""><i><img class="iconTopSpacement" id="imgSmallChat" src="icons/comment-alt.svg" alt=""></i>Fale conosco</a></li>
-            <li class="liSmallHeader"><a class="linksWhiteText" href=""><i><img class="iconTopSpacement" id="imgSmallPhone" src="icons/phone-call.svg" alt=""></i>Telefone</a></li>
-            <li class="liSmallHeader"><a class="linksWhiteText" href=""><i><img class="iconTopSpacement" id="imgSmallWhatsapp" src="icons/whatsapp.svg" alt=""></i>Whatsapp</a></li>
-        </ul>
-
-    </div>
-
-    </header>
     <header>
-        <div id="bigHeader" >
-            <div id="logoHeader">
-                <img id="imgLogoHeader" width="100px" src="img/logo preto.png" alt="Logo da empresa">
-
-            </div>
-
+        <div id="title">
+            <h1>InteX</h1>
+            <h1>Caps</h1>
         </div>
+        <ul>
+            <a href=""><li>Inicio</li></a>
+            <a href=""><li>Serviços</li></a>
+            <a href=""><li>Sobre</li></a>
+            <a href=""><li>Contato</li></a>
+            <a id="inscrevaSeButton" href=""><li>Já tem uma conta?</li></a>
 
+        </ul>
     </header>
+
     <main>
-        <!-- Background do Conteúdo do site -->
-        <div style="border-radius: 23px;" id="mainSection">
+        <aside>
+            <h2><span>Seja bem-vindo a</span></h2>
+            <h2>InteXcaps</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi debitis corrupti voluptatem labore non tenetur ut molestias animi, accusamus obcaecati asperiores blanditiis reprehenderit rem beatae cumque, excepturi quo. Veniam, veritatis?</p>
+            <form action="">
+                <input class="inputTexto" type="text" placeholder="Nome">
+                <input class="inputTexto" type="email" placeholder="E-mail">
+                <input id="envio" type="submit" name="" value="Enviar >">
+            </form>
+        </aside>
 
-        </div>
-
-        <!--Sobre nós-->
-        <div id="sobreNosSessao" >
-            <h1 class="textoDestaque" >Sobre nós</h1>
-            <p>Somos uma empresa desenvolvida em um exemplo de html e css. Somos uma empresa desenvolvida em um exemplo de html e css. Somos uma empresa desenvolvida em um exemplo de html e css. Somos uma empresa desenvolvida em um exemplo de html e css.</p>
-
-        </div>
-
-
-
-
-
-
-
-
+        <article>
+            <img src="/landing-page-teste/components/images/logo preto.png" alt="Mulher roxa">
+        </article>
 
 
     </main>
-
-
-
-
-
-
-
-    <footer>
-
-    </footer>
 
 </body>
 </html>
